@@ -1,5 +1,8 @@
-from helpers import validate_params, validate_blogname
-from request import TumblrRequest
+from __future__ import absolute_import
+from builtins import str
+from builtins import object
+from .helpers import validate_params, validate_blogname
+from .request import TumblrRequest
 
 
 class TumblrRestClient(object):
