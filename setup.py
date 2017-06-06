@@ -15,23 +15,15 @@ setup(
 
     test_suite='nose.collector',
 
-    entry_points = {
-        'console_scripts': ['tumblr-auth=pytumblr.interactive_console:run'],
-    },
-
     install_requires = [
         'oauth2',
-        'httpretty',
-        'future',
-        'pyyaml',
+        'httpretty'
     ],
 
     tests_require=[
         'nose',
         'nose-cov',
-        'mock',
-    ],
-
-
+        'mock'
+    ]
 
 )
