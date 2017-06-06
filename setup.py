@@ -16,7 +16,7 @@ setup(
     test_suite='nose.collector',
 
     entry_points = {
-        'console_scripts': ['tumblr-auth=pytumblr.interactive_console:run'],
+        'console_scripts': ['tumblr_console=pytumblr.interactive_console:run'],
     },
 
     install_requires = [
